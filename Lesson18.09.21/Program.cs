@@ -49,14 +49,21 @@ namespace Lesson18._09._21
             Console.WriteLine("Полученная строка(маленькие):" + str1);
             Console.ReadKey();
 
-            Console.WriteLine("task4");
-            string s1, s2;
-            Console.WriteLine("Введите любую строку-");
-            s1 = Console.ReadLine();
-            Console.WriteLine("Введите подстроку-");
-            s2 = Console.ReadLine();
-            int result = s1.IndexOf(s2);
-            Console.WriteLine("Колличество вхождений подстроки в строку: " + result);
+            Console.WriteLine("task 4");
+            Console.Write("Введите строку-");
+            string str2;
+            str1 = Console.ReadLine();
+            Console.Write("Введите подстроку-");
+            str2 = Console.ReadLine();
+            int count = -1;
+            int i = 0;
+            do
+            {
+                i = str1.IndexOf(str2, i) + 1;
+                count++;
+            }
+            while (i != 0);
+            Console.WriteLine($"Количество вхождений подстроки в строку: {count}");
 
             Console.WriteLine("task5");
             double speedinkm, speedinsm;
@@ -103,7 +110,7 @@ namespace Lesson18._09._21
             }
 
             Console.WriteLine("task 7");
-            double normPrice, salePrice, holidayPrice, value, count;
+            double normPrice, salePrice, holidayPrice, value, result;
             Console.Write("Розничная цена бутылки-");
             normPrice = Convert.ToDouble(Console.ReadLine());
             Console.Write("Скидка в DutyFree (в %)-");
@@ -111,8 +118,8 @@ namespace Lesson18._09._21
             Console.Write("Возможные расходы на отпуск: ");
             holidayPrice = Convert.ToDouble(Console.ReadLine());
             value = (salePrice / 100) * normPrice;
-            count = holidayPrice / value; 
-            Console.WriteLine("Необходимое количество бутылок на отпуск:" + count);
+            result = (holidayPrice / value); 
+            Console.WriteLine("Необходимое количество бутылок на отпуск:" + result);
 
 
 

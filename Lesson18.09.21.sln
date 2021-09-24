@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class", "Lesson18.09.21\cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "home(pdf)", "home(pdf)\home(pdf).csproj", "{AF880BA1-03B8-4EC0-9672-0A359273D0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hometask", "labs\hometask.csproj", "{E378165F-A74E-4ED6-B737-A0784A4FB11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labs3", "labs\labs3.csproj", "{E378165F-A74E-4ED6-B737-A0784A4FB11D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
