@@ -48,7 +48,7 @@ namespace labs
             user.balance = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Информация о счете:\nТип счета: {user.type}\nНомер счета: {user.number}\nБаланс: {user.balance}");
 
-            Console.WriteLine("task3.2");
+            Console.WriteLine("task3.2home");
             Worker person;
             Console.Write("1.КГУ\n2.КАИ\n3.КХТИ\nВыберите место будущей работы (1,2,3): ");
             person.place = (University)Convert.ToUInt32(Console.ReadLine());
